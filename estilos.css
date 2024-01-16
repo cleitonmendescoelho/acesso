@@ -1,0 +1,66 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: whitesmoke;
+
+}
+main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 150px;
+}
+h1{
+    font-family:arial,Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+    height: 35px;
+    width: 500px;
+    border: solid 1.5px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav button{
+    margin: 5px;
+    height: 25px;
+    width: 500px;
+    
+}
+.color1{
+    background-color: green;
+}
+.color1:hover{
+    color: white;
+}
+.color2{
+    background-color: rgb(60,71,235,92);
+}
+.color2:hover{
+    color: white;
+}
+section{
+    position: relative;
+    right: 180px;
+    margin:10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(139, 139, 139);
+    text-decoration: underline;
+}
+
+
+
+

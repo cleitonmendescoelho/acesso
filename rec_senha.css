@@ -1,0 +1,38 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: whitesmoke;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 150px;
+}
+input{
+    width: 500px;
+    height:35px;
+    margin: 8px;
+    border:solid 1px black;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+button{
+    width: 500px;
+    background-color: rgb(60,71,235,92);
+    position: relative;
+    bottom: 140px;
+}
+button:hover{
+    color:white;
+}
